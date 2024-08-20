@@ -106,14 +106,6 @@ Contributions to the Tempo Detector project are welcome! Please feel free to sub
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- [librosa](https://librosa.org/) - The library used for audio and music processing
-- [numpy](https://numpy.org/) - For numerical computing
-- [scipy](https://www.scipy.org/) - For signal processing functions
-- [matplotlib](https://matplotlib.org/) - For plotting and visualization
-- [Docker](https://www.docker.com/) - For containerization
-
 ## Contact
 
 For any queries or suggestions, please open an issue on the GitHub repository.

@@ -6,8 +6,8 @@ services:
     volumes:
       - ./audio:/app/audio
     environment:
-      - DISPLAY=${DISPLAY}  # For GUI support on Linux
-    command: ["python", "tempo_detector.py"]  # This will be overridden by CLI arguments
+      - DISPLAY=${DISPLAY}
+    command: ["python", "tempo_detector.py"]
 
 volumes:
   audio:

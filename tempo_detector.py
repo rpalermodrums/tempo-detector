@@ -1,7 +1,7 @@
+import argparse 
 import librosa
+
 import numpy as np
-import argparse
-from scipy.signal import find_peaks
 from pydub import AudioSegment
 
 class TempoDetector:

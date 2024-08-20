@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  tempo-detector:
+    build: .
+    volumes:
+      - ./audio:/app/audio
+    environment:
+      - DISPLAY=${DISPLAY}  # For GUI support on Linux
+    command: ["python", "tempo_detector.py"]  # This will be overridden by CLI arguments
+
+volumes:
+  audio:

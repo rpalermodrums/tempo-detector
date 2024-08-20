@@ -1,5 +1,7 @@
 # Tempo Detector
 
+## NOTE: This project is in early stages and should not be used in production quite yet
+
 Tempo Detector is a command-line tool for accurately detecting the tempo of audio files using Fast Fourier Transform (FFT) and autocorrelation methods. This tool is designed for music producers, DJs, and audio engineers who need to quickly and accurately determine the tempo of a track.
 
 ## Features
